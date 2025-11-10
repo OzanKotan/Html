@@ -29,14 +29,42 @@
     <noscript>Your Browser does nut support JavaScript</noscript>
     <!--start code-->
 
+    <!-- datalist -->
+    <input list="list" name="backend">
+    <datalist id="list">
+        <option value="Java SE" />
+        <option value="Java EE" />
+        <option value="Web Servis" />
+        <option value="Spring Boot" />
+    </datalist>
+    <hr>
+
     <!-- optional -->
-     <select name="frontend" id="frontend">
+    <select name="frontend1" id="frontend1" multiple disabled>
         <option value="0">Seçiniz</option>
         <option value="1">Html5</option>
         <option value="2">Css3</option>
         <option value="3">JS</option>
         <option value="4">React JS</option>
-     </select><br>
+    </select><br><br>
+
+    <!-- optional -->
+    <select name="frontend2" id="frontend2" multiple>
+        <option value="0">Seçiniz</option>
+        <option value="1">Html5</option>
+        <option value="2">Css3</option>
+        <option value="3">JS</option>
+        <option value="4">React JS</option>
+    </select><br><br>
+
+    <!-- optional -->
+    <select name="frontend3" id="frontend3">
+        <option value="0">Seçiniz</option>
+        <option value="1">Html5</option>
+        <option value="2">Css3</option>
+        <option value="3">JS</option>
+        <option value="4">React JS</option>
+    </select><br><br>
 
     <!-- link+image -->
     <a href="https://www.google.com/" target="_blank">
