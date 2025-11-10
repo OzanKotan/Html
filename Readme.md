@@ -5,16 +5,20 @@
 
 [GitHub](https://github.com/OzanKotan/Html)
 
-HTML5
+---
 
-- HTML5
+### CDN
+
+- Font Awesome = <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 - CSS3
 - ✨Magic ✨
 
-## HTML5 Features
+## Comment
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
+- HTML  <!-- HTML Comment -->
+- CSS   /* CSS Comment */
+- JS    // Single Comment
+- JS    /* Multiple Comment */
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
